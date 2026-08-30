@@ -1,0 +1,21 @@
+# Core async crawling
+aiohttp>=3.9
+playwright>=1.44        # run `playwright install chromium` after pip install
+
+# Google Sheets output
+gspread>=6.0
+google-auth>=2.29
+
+# Optional: swap difflib-based fuzzy matching in entity_resolution/resolver.py
+# for rapidfuzz if the canonical entity list grows past a few thousand rows
+# (difflib is O(n) per lookup against the seed set; rapidfuzz's C extension
+# is meaningfully faster at that scale).
+# rapidfuzz>=3.9
+
+# Optional: swap dataclass-based schemas.py for pydantic if the team wants
+# JSON-schema export / stricter runtime coercion. Not required to run this repo.
+# pydantic>=2.7
+
+# Dev / testing
+pytest>=8.2
+pytest-asyncio>=0.23

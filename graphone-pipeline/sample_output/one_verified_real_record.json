@@ -1,0 +1,22 @@
+{
+  "_note": "This is ONE genuinely verified record (fetched live via web search/browse on 2026-08-28), included to prove the schema + extraction path produce real, source-traceable data end to end \u2014 not a substitute for the 1,000-record requirement, which needs the pipeline actually run against live sources over the trial period (see README 'Running for real').",
+  "record": {
+    "schemaVersion": "1.0",
+    "recordType": "RESEARCH_PAPER",
+    "source": {
+      "name": "GitHub",
+      "url": "https://github.com/deepseek-ai/DeepSeek-R1"
+    },
+    "content": {
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "authors": [
+        "DeepSeek-AI"
+      ],
+      "paper_url": "https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf",
+      "github_url": "https://github.com/deepseek-ai/DeepSeek-R1",
+      "github_stars": 92000,
+      "published_date": null
+    },
+    "collectedAt": "2026-08-28T10:35:36.684970+00:00"
+  }
+}
